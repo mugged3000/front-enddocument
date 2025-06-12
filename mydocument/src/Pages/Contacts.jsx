@@ -24,7 +24,7 @@ const Contact = () => {
                   </div>
                   <div className="contact-item-text">
                     <h4>Email</h4>
-                    <p>your.email@example.com</p>
+                    <p>franciscollins42@gmail.com</p>
                   </div>
                 </div>
                 <div className="contact-item d-flex mb-4">
@@ -33,7 +33,9 @@ const Contact = () => {
                   </div>
                   <div className="contact-item-text">
                     <h4>Phone</h4>
-                    <p>+2347041964380</p>
+                    <p>+2347041964380  or <br />
+                        +2349038375620  (WhatsApp)
+                    </p>
                   </div>
                 </div>
                 <div className="contact-item d-flex">
@@ -59,7 +61,7 @@ const Contact = () => {
           </div>
           
           <div className="col-lg-6">
-            <form className="contact-form">
+            <form className="contact-form" action="https://formspree.io/f/xrbprbdd" method="post">
               <div className="mb-4">
                 <label htmlFor="name" className="form-label">Your Name</label>
                 <input type="text" className="form-control" id="name" placeholder="Name" required />
