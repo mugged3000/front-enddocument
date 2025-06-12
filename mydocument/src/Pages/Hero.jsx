@@ -14,7 +14,7 @@ const Hero = () => {
     }
   };
 
-  return (
+  return ( 
     <section id="home" className="hero">
       <div className="bg-shape bg-circle"></div>
       <div className="bg-shape bg-triangle"></div>
